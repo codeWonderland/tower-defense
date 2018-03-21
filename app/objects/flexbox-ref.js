@@ -64,6 +64,17 @@ const FlexboxRef = Ember.Object.extend({
       'initial',
       'inherit'
     ],
+    
+    'justify-self': [
+      'auto',
+      'stretch',
+      'center',
+      'flex-start',
+      'flex-end',
+      'baseline',
+      'initial',
+      'inherit'
+    ],
 
     _populateOrder: Ember.on('init', function () {
       for (var i = -100; i < 101; i++) {
